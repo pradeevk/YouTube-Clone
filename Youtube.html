@@ -6,61 +6,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
-    <style>
-      p{
-        font-family: 'Roboto'; 
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
-     
-      .searchbar{
-        margin-left: 20px;
-        display: block;
-      }
-    
-      .video-title{
-        margin-top: 0%;
-        margin-bottom: 12px;
-        font-size: 14px;
-       font-weight: bold; 
-        line-height: 15px;}
-   
-      .pro-pic{
-        width: 40px;
-        border-radius: 50px;
-      }
-      .video-contain{
-        margin-top: 20px;
-      }
-      .author, .views{
-        font-size: 12px;
-        margin-top: 0%;
-        line-height: 15px;
-        color: rgb(96,96,96);
-      }
-      .author{
-        margin-bottom: 10px;
-      }
-      .video-grid{
-        display: grid;
-        grid-template-columns: 40px 1fr;
-        column-gap: 8px;
-      }
-      .video-total-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 10px;
-        row-gap: 40px;
-      }
-      .thumbnail{
-        width: 100%;
-      }
-    </style>
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>
-  <input class="searchbar" placeholder="Search"> 
+
+  <div class="header"> 
+    <div class="left-head"> <img class="three-dot" src="Youtube/into-to-html/hamburger-menu.svg"> <img class="yt-logo" src="Youtube/into-to-html/youtube-logo.svg"></div>
+    <div class="middle-head">  <input class="searchbar" placeholder="Search"> <button class="search-button"><img class="Search-icon" src="Youtube/into-to-html/search.svg"  alt=""> </button> <button class="voice-button"><img class="voice-logo" src="Youtube/into-to-html/voice-search-icon.svg" alt="">  </button></div>
+    <div class="right-head"> right section</div>
+  </div>
+ 
   <div class="video-total-grid"> 
   <div class="video-preview">
     <div> <img class="thumbnail" src="Youtube/into-to-html/thumbnail-1.webp" alt=""></div>
